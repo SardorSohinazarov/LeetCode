@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCodeDaily\\LeetCode\\LeetCode.csproj": {}
+    "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCode\\LeetCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCodeDaily\\LeetCode\\LeetCode.csproj": {
+    "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCode\\LeetCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCodeDaily\\LeetCode\\LeetCode.csproj",
+        "projectUniqueName": "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCode\\LeetCode.csproj",
         "projectName": "LeetCode",
-        "projectPath": "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCodeDaily\\LeetCode\\LeetCode.csproj",
+        "projectPath": "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCode\\LeetCode.csproj",
         "packagesPath": "C:\\Users\\Sardor Sohinazarov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCodeDaily\\LeetCode\\obj\\",
+        "outputPath": "C:\\Users\\Sardor Sohinazarov\\OneDrive\\Desktop\\.Net Projects\\LeetCode\\LeetCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sardor Sohinazarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
