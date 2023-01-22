@@ -27,7 +27,6 @@ public class Solution
                 Iterate(node.right);
             }
         }
-
         return list;
     }
 }
