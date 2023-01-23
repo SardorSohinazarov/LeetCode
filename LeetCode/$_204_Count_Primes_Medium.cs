@@ -1,34 +1,37 @@
-﻿namespace LeetCode204
+﻿namespace LeetCode204;
+
+public class Solution
 {
-    public class Solution
+    public int CountPrimes(int n)
     {
-        public int CountPrimes(int n)
+        int count = 0;
+        if (n < 3)
+            count++;
+
+        for (int i = 3; i < n; i += 2)
         {
-            int count = 0;  
-            for(int i = 0; i < n; i++)
-            {
-                if(Prime(i))
-                    count++;
-            }
-            return count;
+            if(IsPrimary(i))
+                count++;
         }
 
-        public bool Prime(int n)
+
+        return count;
+    }
+    public bool IsPrimary(int n)
+    {
+        int i, m = 0, flag = 0;
+        m = n / 2;
+        for (i = 2; i <= m; i++)
         {
-            if(n == 2)
-                return true;
-
-            int count = 0;
-
-            for(int i = 1; i<= Math.Sqrt(n); i++)
+            if (n % i == 0)
             {
-                if(n%i == 0)
-                {
-                    count ++;
-                }
+                flag = 1;
+                return false;
+                break;
             }
-
-            return count == 1;
         }
+        if (flag == 0)
+            return true;
+        return false;
     }
 }
