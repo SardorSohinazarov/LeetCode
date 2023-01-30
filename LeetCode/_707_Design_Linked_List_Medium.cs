@@ -1,4 +1,4 @@
-﻿public class MyLinkedList
+﻿public class MyLinkedList// learned
 {
     Node head;
     public MyLinkedList()
