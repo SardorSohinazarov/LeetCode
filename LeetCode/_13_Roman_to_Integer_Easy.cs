@@ -1,4 +1,4 @@
-﻿namespace LeetCode13
+﻿namespace LeetCode13//solved
 {
     public class Solution
     {
