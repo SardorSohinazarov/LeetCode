@@ -1,11 +1,11 @@
-﻿namespace LeetCode231// solved
+﻿namespace LeetCode.Easy// solved
 {
     //the third approach
     public class Solution
     {
         public bool IsPowerOfTwo(int n)
         {
-            return n < 1 ? false : (n & (n - 1)) == 0 ? true : false;
+            return n < 1 ? false : (n & n - 1) == 0 ? true : false;
         }
     }
 

@@ -1,6 +1,4 @@
-﻿using LeetCode144;//solved
-
-namespace LeetCode404
+﻿namespace LeetCode.Easy
 {
     public class Solution
     {

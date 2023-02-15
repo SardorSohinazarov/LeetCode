@@ -1,10 +1,12 @@
-﻿namespace LeetCode144;//solved
+﻿namespace LeetCode.Easy;//solved
 
-public class TreeNode {
+public class TreeNode
+{
     public int val;
     public TreeNode left;
     public TreeNode right;
-    public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
+    public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+    {
         this.val = val;
         this.left = left;
         this.right = right;
@@ -19,8 +21,9 @@ public class Solution
 
         Iterate(root);
 
-        void Iterate(TreeNode node){
-            if(node != null)
+        void Iterate(TreeNode node)
+        {
+            if (node != null)
             {
                 list.Add(node.val);
                 Iterate(node.left);

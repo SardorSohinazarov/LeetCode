@@ -1,4 +1,4 @@
-﻿namespace LeetCode258//solved
+﻿namespace LeetCode.Easy//solved
 {
     public class Solution
     {

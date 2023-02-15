@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Numerics;
 
-namespace LeetCode263
+namespace LeetCode.Easy
 {
     public class Solution
     {
         public bool IsUgly(int n)
         {
-            return n <= 0 ? false : (BigInteger.Pow(30, 32) % n) == 0;
+            return n <= 0 ? false : BigInteger.Pow(30, 32) % n == 0;
         }
     }
     /*public class Solution

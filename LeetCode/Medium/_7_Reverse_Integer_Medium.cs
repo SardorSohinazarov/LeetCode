@@ -1,4 +1,4 @@
-﻿namespace LeetCode7;//solved
+﻿namespace LeetCode.Medium;//solved
 
 public class Solution
 {

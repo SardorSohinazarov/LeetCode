@@ -1,4 +1,4 @@
-﻿namespace LeetCode242//solved
+﻿namespace LeetCode.Easy//solved
 {
     public class Solution
     {
@@ -6,19 +6,19 @@
         {
             if (s.Length != t.Length)
                 return false;
-            int[] alphabit = new int[26]; 
-            for(int i = 0; i< s.Length; i++)
+            int[] alphabit = new int[26];
+            for (int i = 0; i < s.Length; i++)
             {
-                alphabit[s[i]-(int)'a']++;
+                alphabit[s[i] - 'a']++;
             }
-            for(int i = 0; i< t.Length; i++)
+            for (int i = 0; i < t.Length; i++)
             {
-                alphabit[t[i]-(int)'a']--;
+                alphabit[t[i] - 'a']--;
             }
 
-            for(int i = 0 ; i< alphabit.Length ; i++)
+            for (int i = 0; i < alphabit.Length; i++)
             {
-                if(alphabit[i] != 0)
+                if (alphabit[i] != 0)
                 {
                     return false;
                 }

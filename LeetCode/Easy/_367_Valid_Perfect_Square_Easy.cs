@@ -1,4 +1,4 @@
-﻿namespace LeetCode367
+﻿namespace LeetCode.Easy
 {
     public class Solution
     {
@@ -6,7 +6,7 @@
         {
             long x = num;
 
-            while(x*x > num)
+            while (x * x > num)
             {
                 x = (x + num / x) / 2;
             }

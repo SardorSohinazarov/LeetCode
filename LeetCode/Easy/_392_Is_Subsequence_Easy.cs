@@ -1,10 +1,10 @@
-﻿namespace LeetCode392;//solved
+﻿namespace LeetCode.Easy;//solved
 
 public class Solution
 {
     public bool IsSubsequence(string s, string t)
     {
-        if(s == String.Empty)
+        if (s == string.Empty)
             return false;
 
         int count = 0;
